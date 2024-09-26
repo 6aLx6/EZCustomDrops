@@ -1,0 +1,21 @@
+#Soporta HEX y MinecraftCodes
+#Se puede usar cualquier MOB solo usa el formato que usan los demas
+#Solo para 1.21
+####################################################################
+
+
+drops:
+  blaze:
+    item: "EMERALD"  # Tipo de ítem
+    name: "#00FF00Esmeralda Mística"
+    lore:
+      - "#7F7F7FUma esmeralda llena de magia."
+      - "#FFFF00Se dice que tiene poderes especiales."
+    drop-chance: 0.5
+  zombie:
+    item: "DIAMOND"
+    name: "#FFFFFFCabeza de Zombie"
+    lore:
+      - "#AAAAAAUna cabeza de un zombie caído."
+      - "#FF00FFRecuerda siempre llevar una antorcha."
+    drop-chance: 1

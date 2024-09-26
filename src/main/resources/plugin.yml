@@ -1,0 +1,11 @@
+main: org.example.customdrops
+version: 1.0.0
+name: customdrops
+prefix: "[CustomDrops]"
+author: 6aLx6
+api-version: 1.13
+
+commands:
+  customdrops:
+    description: Comando para manejar los drops personalizados
+    usage: /customdrops [reload]

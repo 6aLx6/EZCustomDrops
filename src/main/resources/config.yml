@@ -3,19 +3,46 @@
 #Solo para 1.21
 ####################################################################
 
-
 drops:
   blaze:
-    item: "EMERALD"  # Tipo de ítem
-    name: "#00FF00Esmeralda Mística"
+    item: "DIAMOND"
+    name: "#00FF00Diamante de Fuego"
     lore:
-      - "#7F7F7FUma esmeralda llena de magia."
-      - "#FFFF00Se dice que tiene poderes especiales."
+      - "#7F7F7FUn diamante que brilla con el calor."
+      - "#FFFF00Se dice que contiene la esencia del fuego."
     drop-chance: 0.5
   zombie:
-    item: "DIAMOND"
-    name: "#FFFFFFCabeza de Zombie"
+    item: "GOLD_INGOT"
+    name: "#FFFF00Oro Corrupto"
     lore:
-      - "#AAAAAAUna cabeza de un zombie caído."
-      - "#FF00FFRecuerda siempre llevar una antorcha."
+      - "#AAAAAAUn lingote de oro contaminado por la oscuridad."
+      - "#FF00FFSu valor es incierto en el mundo de los muertos."
+    drop-chance: 0.01
+  sheep:
+    item: "SHEARS"
+    name: "#FFFFFFTijeras Místicas"
+    lore:
+      - "#AAAAAAUn par de tijeras que cortan la lana con facilidad."
+      - "#FF00FFSe dice que traen suerte a quien las usa."
+    drop-chance: 1
+  skeleton:
+    item: "DIAMOND_AXE"
+    name: "#FFFFFFHacha de Esqueleto"
+    lore:
+      - "#AAAAAAUn hacha forjada en el inframundo."
+      - "#FF00FFSus cortes son tan afilados como su puntería."
+    drop-chance: 1
+  creeper:
+    item: "ENDER_PEARL"
+    name: "#00FF00Perla de la Dimensión"
+    lore:
+      - "#AAAAAALa esencia de un viajero dimensional."
+      - "#FF0000Puede usarse para escapar de una explosión."
+    drop-chance: 0.2
+  cow:
+    item: "CAULDRON"
+    name: "#FFFFFFCaldero de Vaca"
+    lore:
+      - "#AAAAAALa vaca siempre da la mejor leche."
+      - "#FF00FFEste caldero es perfecto para preparar pociones."
     drop-chance: 1

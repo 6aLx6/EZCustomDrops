@@ -18,15 +18,22 @@ public class MainCommand implements CommandExecutor {
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
         if (command.getName().equalsIgnoreCase("customdrops")) {
 
+            if (!sender.hasPermission("customdrops.use")) {
+                return true;
+            }
+
             if (args.length == 0) {
-                sender.sendMessage(ChatColor.RED + "Uso: /customdrops reload");
+                sender.sendMessage(ChatColor.BLUE + "/customdrops reload");
                 return false;
             }
 
-
             if (args[0].equalsIgnoreCase("reload")) {
+                if (!sender.hasPermission("customdrops.reload")) {
+                    return true;
+                }
+
                 plugin.reloadConfig();
-                sender.sendMessage(ChatColor.GREEN + "La configuración se ha recargado correctamente.");
+                sender.sendMessage(ChatColor.GRAY + "La configuración se ha recargado correctamente.");
                 return true;
             } else {
 

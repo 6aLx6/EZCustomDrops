@@ -9,3 +9,9 @@ commands:
   customdrops:
     description: Comando para manejar los drops personalizados
     usage: /customdrops [reload]
+
+permissions:
+  customdrops.use:
+    default: op
+  customdrops.reload:
+    default: op

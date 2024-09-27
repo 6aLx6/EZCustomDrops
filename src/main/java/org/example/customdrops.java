@@ -37,14 +37,14 @@ public class customdrops extends JavaPlugin implements Listener {
     }
 
     public void registerCommands() {
-        this.getCommand("customdrops").setExecutor(new MainCommand(this)); // Pasar la instancia del plugin
+        this.getCommand("customdrops").setExecutor(new MainCommand(this));
     }
 
     @Override
     public void reloadConfig() {
         super.reloadConfig();
         config = getConfig();
-        Bukkit.getConsoleSender().sendMessage(ChatColor.translateAlternateColorCodes('&', prefix + " &bLa configuración se ha recargado.")); // Mensaje de confirmación
+        Bukkit.getConsoleSender().sendMessage(ChatColor.translateAlternateColorCodes('&', prefix + " &bLa configuración se ha recargado."));
     }
 
     @EventHandler
